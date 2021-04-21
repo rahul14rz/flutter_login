@@ -14,7 +14,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
 
   Future _doNavigation() async {
-    Future.delayed(Duration(seconds: 6), () {
+    Future.delayed(Duration(seconds: 3), () {
       if (SharedPrefs.getLogin) {
         Navigator.pushReplacement(
             context,
